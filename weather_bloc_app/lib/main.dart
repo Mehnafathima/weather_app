@@ -11,8 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'weather app starting',
+      debugShowCheckedModeBanner: false,
+      title: 'weather app starting process',
       theme: ThemeData(
+      
         // This is the theme of your application.
         //
         // TRY THIS: Try running your application with "flutter run". You'll see
